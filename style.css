@@ -277,7 +277,7 @@ a.more {
 .btn {
     font-weight: 600;
     padding: 12px 30px;
-    border-radius: 30px;
+    border-radius: 20px;
     color: #ffffff;
     background: #2f2f2f;
     border-color: #2f2f2f;
@@ -370,7 +370,8 @@ a.more {
     text-decoration: none;
 }
 
-.product-section .product-item .icon-cross {
+
+.product-section .product-item {
     position: absolute;
     width: 35px;
     height: 35px;
@@ -384,13 +385,12 @@ a.more {
     margin-bottom: -17.5px;
     border-radius: 50%;
     opacity: 0;
-    visibility: hidden;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
 }
 
-.product-section .product-item .icon-cross img {
+.product-section .product-item img {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -418,10 +418,9 @@ a.more {
     top: -25px;
 }
 
-.product-section .product-item:hover .icon-cross {
+.product-section .product-item:hover {
     bottom: 0;
     opacity: 1;
-    visibility: visible;
 }
 
 .product-section .product-item:hover:before {
@@ -878,7 +877,7 @@ textarea {
 }
 
 .site-blocks-table .btn {
-    padding: 2px 10px;
+    padding: 4px 10px;
 }
 
 .site-blocks-table thead th {

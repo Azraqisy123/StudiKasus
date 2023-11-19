@@ -38,8 +38,8 @@
                         </li>
                     </ul>
                     </li>
-                    <li><a class="nav-link" href="about.html">About us</a></li>
-                    <li><a class="nav-link" href="contact.html">Contact us</a></li>
+                    <li><a class="nav-link" href="about.php">About us</a></li>
+                    <li><a class="nav-link" href="contact.php">Contact us</a></li>
 
                     </ul>
                 </div>
@@ -54,7 +54,7 @@
             <div class="row justify-content-between">
                 <div class="col-lg-5">
                     <div class="intro-excerpt">
-                        <h1>Musical Notes <span clsas="d-block">Quality Goods</span></h1>
+                        <h1>Musical Notes <span class="d-block">Quality Goods</span></h1>
                         <p class="mb-4"> Dive into a world where the harmonious blend of premium instruments,
                             accessories, and marching band essentials awaits you. Discover unparalleled craftsmanship
                             and precision in every product, ensuring that your musical journey is not only enriched but

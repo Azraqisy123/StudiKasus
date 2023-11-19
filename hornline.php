@@ -1,7 +1,6 @@
 <?php
 include "connection.php";
 $query = mysqli_query($connection, "SELECT * FROM produk 
-INNER JOIN gambar ON produk.ID_Gambar = gambar.ID_Gambar
 WHERE produk.ID_Kategori = 12");
 ?>
 
@@ -41,8 +40,8 @@ WHERE produk.ID_Kategori = 12");
                     </li>
                 </ul>
                 </li>
-                <li><a class="nav-link" href="about.html">About us</a></li>
-                <li><a class="nav-link" href="contact.html">Contact us</a></li>
+                <li><a class="nav-link" href="about.php">About us</a></li>
+                <li><a class="nav-link" href="contact.php">Contact us</a></li>
                 </ul>
             </div>
         </div>
@@ -61,23 +60,23 @@ WHERE produk.ID_Kategori = 12");
         </div>
     </div>
     <!-- End Hero Section -->
-
     <div class="untree_co-section product-section before-footer-section">
         <div class="container">
+            <a class="btn btn-primary btn-sm mb-3" href="Hornline/add_horn.php" role="button">Tambah Product</a>
             <div class="row">
                 <?php
                 while ($data = mysqli_fetch_array($query)) { ?>
                     <!-- Product Coloumn -->
                     <div class="col-12 col-md-4 col-lg-3 mb-5">
-                        <a class="product-item" href="#">
-                            <img src="Image/<?php echo $data["nama_gambar"] ?>" class="img-fluid product-thumbnail">
+                        <div class="product-item">
+                            <img src="Image/<?php echo $data["Nama_Gambar"] ?>" class="img-fluid product-thumbnail">
                             <h3 class="product-title"><?php echo $data["Nama_Produk"]; ?></h3>
-                            <strong class="product-price"><?php echo $data["Harga"]; ?></strong>
-
-                            <span class="icon-cross">
-                                <img src="Image/cross.svg" class="img-fluid">
-                            </span>
-                        </a>
+                            <strong class="product-price"><?php echo "Rp" . number_format($data["Harga"])  ?></strong>
+                            <div class="my-4">
+                                <a href="Hornline/edit_hornline.php?id=<?php echo $data['ID_Produk']; ?>" class="btn btn-secondary btn-sm">Edit</a>
+                                <a href="Hornline/delete_hornline.php?id=<?php echo $data['ID_Produk']; ?>" class="btn btn-danger btn-sm" onclick="return confirm('Hapus Item?');">Delete</a>
+                            </div>
+                        </div>
                     </div>
                     <!-- End Product Coloumn -->
                 <?php } ?>
