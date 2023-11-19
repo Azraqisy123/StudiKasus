@@ -100,13 +100,6 @@ WHERE produk.ID_Kategori = 11");
                     </div>
                     <p class="mb-4">Dive into a world where the harmonious blend of premium instruments, accessories,
                         and marching band essentials awaits you.</p>
-
-                    <ul class="list-unstyled custom-social">
-                        <li><a href="#"><span class="fa fa-brands fa-facebook"></span></a></li>
-                        <li><a href="#"><span class="fa fa-brands fa-twitter"></span></a></li>
-                        <li><a href="#"><span class="fa fa-brands fa-instagram"></span></a></li>
-                        <li><a href="#"><span class="fa fa-brands fa-linkedin"></span></a></li>
-                    </ul>
                 </div>
 
                 <div class="col-lg-8">
