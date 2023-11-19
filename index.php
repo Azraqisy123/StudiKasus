@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/e3256899f8.js" crossorigin="anonymous"></script>
     <title>Marching Store</title>
     <link rel="shortcut icon" href="Image/ico.png">
@@ -20,34 +17,30 @@
 
     <!-- Start Navigation -->
     <div class="sticky-top">
-        <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark"
-            arial-label="Furni navigation bar">
+        <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark bg-dark" arial-label="Furni navigation bar">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Marching Store<span>.</span></a>
+                <a class="navbar-brand" href="index.php">Marching Store<span>.</span></a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni"
-                    aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="custom-navbar-nav navbar-nav ms-auto mb-2 mb-md-0">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link" href="index.php">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
                             <ul class="dropdown-menu bg-dark mt-2">
-                                <li><a href="percussion.html" class="dropdown-text dropdown-item">Percussion</a></li>
-                                <li><a href="hornline.html" class="dropdown-text dropdown-item">Horn Line</a></li>
-                                <li><a href="pit.html" class="dropdown-text dropdown-item">Pit Instrument</a>
-                                </li>
-                                <li><a href="costume.html" class="dropdown-text dropdown-item">Costume</a></li>
-                                <li><a href="accessories.html" class="dropdown-text dropdown-item">Accessories</a></li>
-                            </ul>
+                                <li><a href="percussion.php" class="dropdown-text dropdown-item">Percussion</a></li>
+                                <li><a href="hornline.php" class="dropdown-text dropdown-item">Horn Line</a></li>
                         </li>
-                        <li><a class="nav-link" href="about.html">About us</a></li>
-                        <li><a class="nav-link" href="contact.html">Contact us</a></li>
+                    </ul>
+                    </li>
+                    <li><a class="nav-link" href="about.html">About us</a></li>
+                    <li><a class="nav-link" href="contact.html">Contact us</a></li>
+
                     </ul>
                 </div>
             </div>
@@ -67,8 +60,7 @@
                             and precision in every product, ensuring that your musical journey is not only enriched but
                             elevated. At our store, we believe in the power of quality, where each note resonates with
                             excellence.</p>
-                        <p><a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#"
-                                class="btn btn-white-outline">Explore</a></p>
+                        <p><a href="" class="btn btn-secondary me-2">Shop Now</a><a href="#" class="btn btn-white-outline">Explore</a></p>
                     </div>
                 </div>
                 <div class="col-lg-7">
@@ -92,14 +84,14 @@
                     <p class="mb-4">Step confidently onto the field, knowing that your passion for marching is backed by
                         the finest instruments and accessories. It's not just about playing the notes; it's about
                         playing them with the best. </p>
-                    <p><a href="shop.html" class="btn">Explore</a></p>
+                    <p><a href="percussion.php" class="btn">Explore</a></p>
                 </div>
                 <!-- End Column 1 -->
 
                 <!-- Start Column 2 -->
                 <div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
                     <a class="product-item" href="cart.html">
-                        <img src="Image/Snare Drum.png" class="img-fluid product-thumbnail">
+                        <img src="Image/Snare_Drum.png" class="img-fluid product-thumbnail">
                         <h3 class="product-title">Snare Premiere HTS</h3>
                         <strong class="product-price">$50.00</strong>
 
@@ -405,9 +397,7 @@
                         <p class="mb-2 text-center text-lg-start">Copyright &copy;
                             <script>
                                 document.write(new Date().getFullYear());
-                            </script>. All Rights Reserved. &mdash; Designed with love by <a
-                                href="https://untree.co">Untree.co</a> Distributed By <a
-                                hreff="https://themewagon.com">ThemeWagon</a>
+                            </script>. All Rights Reserved. &mdash; Designed with love by <a href="https://untree.co">Untree.co</a> Distributed By <a hreff="https://themewagon.com">ThemeWagon</a>
                             <!-- License information: https://untree.co/license/ -->
                         </p>
                     </div>
